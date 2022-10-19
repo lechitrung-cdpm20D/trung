@@ -1,0 +1,9 @@
+﻿@model Product
+<h1>@Model.Name</h1>
+<img src="~/img/product/@Model.Image" style="width:100px" />
+<p>Name : @Model.Name</p>
+<p>ProductType:@Model.ProductType</p>
+<p>Description : @Model.Description</p>
+<p>Price : @Model.Price</p>
+<p>Stock : @Model.Stock</p>
+<a asp-action="Index">&lt; Back to List</a>

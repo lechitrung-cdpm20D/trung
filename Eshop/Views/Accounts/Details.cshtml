@@ -1,0 +1,8 @@
+﻿@model Account
+<h1>Details Account : @Model.Username</h1>
+<img src="~/img/avatar/@Model.Avatar" style="width:100px" />
+<p>FullName : @Model.FullName</p>
+<p>Email : @Model.Email</p>
+<p>Phone : @Model.Phone</p>
+<p>Address : @Model.Address</p>
+<a asp-action="Index">&lt; Back to List</a>

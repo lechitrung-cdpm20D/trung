@@ -1,0 +1,33 @@
+﻿@model Account
+<form asp-action="Edit" class="col-md-4">
+    <div class="form-group">
+        <label asp-for="Username" class="control-label"></label>
+        <input asp-for="Username" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="control-label"></label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FullName" class="control-label"></label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Phone" class="control-label"></label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Address" class="control-label"></label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Avatar" class="control-label"></label>
+        <input type="file" asp-for="Avatar" class="form-control" />
+    </div>
+    <button class="btn btn-warning mt-2">Edit</button>
+</form>
+<a asp-action="Index">&lt; Back to List</a>
